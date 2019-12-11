@@ -11,7 +11,7 @@
 
 目前主流的 `MQ` 有 `Kafka`, `RabbitMQ`, `NSQ`, `RocketMQ`, `ActiveMQ`，它们的对比如下：
 
-![mq_compare](https://user-gold-cdn.xitu.io/2019/12/11/16ef592c81d49f1b?w=1851&h=964&f=png&s=131247)
+![mq_compare](./imgs/mq_compare.png)
 
 ## 3. NSQ 初识
 
@@ -264,7 +264,7 @@ params := bytes.Split(line, separatorBytes)
 
 `nsqlookupd` 代码执行逻辑与 `nsqd` 大体相似，小结流程图如下：
 
-![nsqlookupd](https://user-gold-cdn.xitu.io/2019/12/11/16ef5955530c5950?w=1047&h=1247&f=png&s=88595)
+![nsqlookupd](./imgs/nsqlookupd.png)
 
 ## 6. 源码亮点
 
